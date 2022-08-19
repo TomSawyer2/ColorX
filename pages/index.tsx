@@ -1,6 +1,7 @@
 import './index.scss'
 import primaryColors from '../assets/colors.json'
 import VirtualScroll from '../components/VirtualScroll.vue'
+import { ElProgress } from 'element-plus/dist/index.full.js'
 
 interface ColorItem {
   CMYK: number[]
@@ -20,6 +21,7 @@ const shuffle = (arr: any[]) => {
 }
 
 export default defineComponent({
+  components: { ElProgress },
   setup() {
     // const colors = shuffle(primaryColors);
     const colors = primaryColors

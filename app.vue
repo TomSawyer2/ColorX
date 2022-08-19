@@ -4,14 +4,13 @@
   </div>
 </template>
 
-<script>
-export default {
-  head: {
-    bodyAttrs: {
-      style: 'margin: 0'
-    }
-  }
-}
+<script setup>
+import { ID_INJECTION_KEY } from 'element-plus'
+
+provide(ID_INJECTION_KEY, {
+  prefix: 100,
+  current: 0,
+})
 </script>
 
 <style>
