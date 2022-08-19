@@ -6,5 +6,5 @@
       "use": "@nuxtjs/vercel-builder",
       "config": {}
     }
-  ],
+  ]
 }
