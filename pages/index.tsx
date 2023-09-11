@@ -27,7 +27,7 @@ export default defineComponent({
     const colors = primaryColors
     const colorMap = ['#0093D3', '#CC006B', '#FFF10C', '#333']
     const currentColor = ref(
-      colors.find((item) => item.pinyin === 'guibeihuang')
+      colors.find((item) => item.pinyin === 'qingshanlan')
     )
     return () => (
       <div
