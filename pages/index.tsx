@@ -33,11 +33,11 @@ export default defineComponent({
       <div
         style={`background-color: ${currentColor.value.hex}`}
         class="color-container h-full">
-        <header class="main-header">
+        {/* <header class="main-header">
           <div class="mx-auto flex h-full max-w-7xl items-center px-6">
             <span class="px-2 py-1 text-3xl">ColorX</span>
           </div>
-        </header>
+        </header> */}
         <main class="main-content">
           <div class="color-list">
             <VirtualScroll length={colors.length / 6} childHeight={100}>

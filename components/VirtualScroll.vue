@@ -1,5 +1,5 @@
 <template>
-  <div ref="virtual" class="virtual-empty" :style="{ height: 'calc(100vh - 100px)' }">
+  <div ref="virtual" class="virtual-empty" :style="{ height: 'calc(100vh - 40px)' }">
     <div class="virtual-container" :style="{ height: clacHeight + 'px', minHeight: height + 'px' }">
       <slot :topIndex="topIndex" :bottomIndex="bottomIndex"></slot>
     </div>

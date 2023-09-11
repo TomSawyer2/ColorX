@@ -1,42 +1,20 @@
-# Nuxt 3 Minimal Starter
+# ColorX
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## 简介
 
-## Setup
+ColorX 是一个基于Nuxt的中国传统色彩展示项目。
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
+## 开发
 
 ```bash
-npm run dev
+npm config set registry https://registry.npmmirror.com
+npm i pnpm -g
+pnpm i --shamefully-hoist
+pnpm dev
 ```
 
-## Production
-
-Build the application for production:
+## 部署
 
 ```bash
-npm run build
+pnpm run build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
