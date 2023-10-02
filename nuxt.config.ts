@@ -21,9 +21,9 @@ export default defineNuxtConfig({
       { name: 'og:url', content: 'https://color.tomsawyer2.xyz/' },
       { name: 'og:width', content: '846' },
       { name: 'og:height', content: '566' },
-      { name: 'og:image', content: 'https://blog.tomsawyer2.xyz/pics/og-image.png' },
+      { name: 'og:image', content: 'https://cloudreve-hanserena.oss-cn-hangzhou.aliyuncs.com/pics/og-image.png' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://blog.tomsawyer2.xyz/pics/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://cloudreve-hanserena.oss-cn-hangzhou.aliyuncs.com/pics/favicon.ico' }],
   },
   build: {
     postcss: {
